@@ -65,7 +65,6 @@ export default function Admin() {
     propImage
   ) => {
     try {
-      cd;
       const formData = new FormData();
       console.log(propImage);
       formData.append("productImage", propImage);
