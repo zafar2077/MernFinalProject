@@ -1,0 +1,57 @@
+.productCard {
+  display: flex;
+  flex-direction: column;
+  height: fit-content;
+  width: 25%;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  align-items: center;
+  margin-bottom: 5%;
+  padding: 2% 2% 2% 2%;
+  margin-left: 3%;
+  margin-right: 3%;
+}
+.popup {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.productImage {
+  height: 100px;
+  width: 80%;
+}
+.cardText {
+  font-family: "Fredoka One", cursive;
+  margin-left: auto;
+  margin-right: 5%;
+}
+
+.descriptionContainer {
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.cartButton {
+  background-color: purple;
+  font-family: "Fredoka One", cursive;
+  color: lightgray;
+  border: 0px solid gray;
+  border-radius: 18px;
+  font-size: 12px;
+  margin-left: 2%;
+}
+
+.buttonPairContainer {
+  display: flex;
+  flex-direction: row;
+}
+
+.Overlay {
+  background-color: transparent;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}

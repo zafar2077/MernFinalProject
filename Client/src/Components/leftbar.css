@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap");
+.leftbar {
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  background-color: rgba(45, 45, 45, 255);
+  width: 20%;
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+  position: fixed;
+  z-index: 1;
+}
+
+.logoContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  margin-left: 10px;
+}
+
+.extendedLeftbar {
+  position: fixed;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+  height: 100%;
+  background-color: rgba(45, 45, 45, 255);
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+}
+.logoText {
+  background-image: -webkit-linear-gradient(
+    70deg,
+    rgb(69, 155, 235),
+    rgb(207, 1, 145)
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: "Fredoka One", cursive;
+  font-size: 25px;
+  text-decoration: none;
+}
+
+.logoImage {
+  width: 80px;
+  margin-top: 0px;
+  margin-bottom: 15px;
+  height: 50px;
+}
+
+.icon {
+  background-color: rgba(45, 45, 45, 255);
+  color: gray;
+  font-size: 20px;
+  margin: 0px 0px 0px 0px;
+}
+Link {
+  text-decoration: none !important;
+}
+.links {
+  text-decoration: none !important;
+}
+.links:hover {
+  text-decoration: none;
+}
+
+.links:active {
+  text-decoration: none;
+}
+.links:visited {
+  text-decoration: none;
+}
+.leftBarText {
+  color: white;
+  text-align: center;
+  margin-left: 10px;
+  font-family: "Fredoka One", cursive;
+  font-size: 15px;
+  outline: none;
+}
+
+.optionContainer {
+  margin-top: 20px;
+  display: flex;
+  justify-content: left;
+  margin-left: 20px;
+}
+
+.LowerOptionContainer {
+  display: flex;
+  justify-content: left;
+  height: 100vh;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+.LowerOptionContainer:hover {
+  cursor: pointer;
+}
+.LowerLeftBarText {
+  color: gray;
+  text-align: center;
+  margin-left: 10px;
+  font-family: "Fredoka One", cursive;
+  font-size: 14px;
+}
+
+.selectedOption {
+  display: flex;
+  justify-content: left;
+  height: 100vh;
+  margin-left: 20px;
+  margin-top: 10px;
+  background-color: purple;
+}

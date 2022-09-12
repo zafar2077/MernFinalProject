@@ -1,0 +1,156 @@
+html {
+  width: 100vw;
+  overflow-x: hidden;
+}
+.mainContainer {
+  width: 100%;
+  background-color: rgba(36, 36, 36, 255);
+  display: flex;
+  flex-direction: column;
+  height: fit-content;
+}
+.smallProductsContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  height: 100vh;
+}
+.searchInput {
+  border-radius: 8px;
+  font-size: 15px;
+  font-family: "Fredoka One", cursive;
+  background-color: rgba(45, 45, 45, 255);
+  padding: 7.5px 5px 7.5px 35px;
+  width: 200px;
+  border-width: 0px;
+  margin-top: 5%;
+  color: white;
+}
+
+::placeholder {
+  color: lightgray;
+}
+
+.contentContainer {
+  display: flex;
+  flex-direction: column;
+  margin-left: 60px;
+}
+
+.searchFieldContainer {
+  display: flex;
+  justify-content: center;
+  margin-top: 0px;
+}
+.mainIcons {
+  position: absolute;
+  margin-top: 10%;
+  margin-left: 10px;
+  font-size: 20px;
+  color: grey;
+}
+.profileAvatar {
+  border-radius: 100px;
+  height: 35px;
+  width: 35px;
+  margin-bottom: 0px;
+}
+.topText {
+  font-family: "Fredoka One", cursive;
+  font-size: 15px;
+  background-image: -webkit-linear-gradient(
+    70deg,
+    rgb(69, 155, 235),
+    rgb(207, 1, 145)
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 0px;
+  margin-right: 1%;
+}
+.profileIconContainer {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-right: 10px;
+  margin-bottom: 0px;
+  margin-right: 2%;
+}
+.profileIconContainer:hover {
+  cursor: pointer;
+}
+.carouselImage {
+  height: 170px;
+  border-radius: 8px;
+}
+
+.carouselContainer {
+  display: flex;
+
+  justify-content: center;
+
+  margin-top: 30px;
+}
+
+.carousel {
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+}
+
+.carouselText {
+  font-family: "Fredoka One", cursive;
+  /* background-image: -webkit-linear-gradient(
+    70deg,
+    rgb(69, 155, 235),
+    rgb(207, 1, 145)
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; */
+
+  color: white;
+  font-size: 20px;
+}
+
+.productText {
+  font-family: "Fredoka One", cursive;
+  font-size: 18px;
+  color: white;
+  margin-bottom: 0px;
+}
+
+.productBarContainer {
+  margin-top: 5px;
+  display: flex;
+}
+
+.productButtons {
+  font-family: "Fredoka One", cursive;
+
+  font-size: 12px;
+  margin-left: 10px;
+  border-radius: 10px;
+  background-color: transparent;
+  border: 0.1px solid;
+  border-color: gray;
+  color: white;
+}
+
+.selectedProductButtons {
+  font-family: "Fredoka One", cursive;
+
+  font-size: 12px;
+  margin-left: 10px;
+  border-radius: 10px;
+  background-color: #a100ec;
+  border: 0px solid;
+  border-color: rgba(46, 45, 45, 0.822);
+  color: white;
+}
+
+.productsContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  height: fit-content;
+}
